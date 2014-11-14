@@ -1,0 +1,42 @@
+body {	
+	background-color: black;		
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    background-image: url('../images/bullet.png');
+    background-repeat: no-repeat;
+    background-position: 0px 5px; 
+    padding-left: 50px;  
+}
+
+ul li:not(:first-child){
+   margin-top: 20px;
+}
+.container{
+	background-color:rgba(255, 255, 255, 0.2);	
+	width: 330px;
+	padding: 30px;
+	margin-top: 50px;
+	border-radius: 40px;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#wrapper{			
+	margin: 0 auto;
+	display: table;
+}
+
+.title{
+	margin-bottom: 5px;
+	font-family: 'Indie Flower', cursive;
+	font-size:14pt;
+	color: darkgray;	
+}
